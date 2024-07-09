@@ -1,0 +1,112 @@
+# Created by https://www.toptal.com/developers/gitignore/api/c
+# Edit at https://www.toptal.com/developers/gitignore?templates=c
+
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# End of https://www.toptal.com/developers/gitignore/api/c
+
+# Build artifacts
+bin/
+build/
+obj/
+
+# Dependency files
+.deps/
+
+# IDE files
+.idea/
+*.sublime-workspace
+*.project
+*.user
+
+# Log files
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Object files
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled DLLs
+*.dll
+*.so
+*.dylib
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Backup files
+*.bak
+*.swp
+*.orig
+*.rej
+
+# Vim files
+.*.swp
+*.un~
